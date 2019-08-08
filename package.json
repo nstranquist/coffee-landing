@@ -1,0 +1,22 @@
+{
+  "name": "coffee-page",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "surge": "^0.21.3",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "babel-loader": "^8.0.6",
+    "lodash": "^4.17.15",
+    "webpack": "^4.39.1"
+  }
+}

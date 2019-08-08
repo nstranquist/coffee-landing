@@ -129,7 +129,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 80%;
   height: 100%;
   margin: 0 auto;
 }
@@ -156,7 +156,7 @@ a {
   display: flex;
 }
 .btn {
-  padding: 1rem 2rem;
+  padding: 1rem 2.5rem;
   cursor: pointer;
   border-radius: .1rem;
   transition: all .5s;
@@ -183,7 +183,7 @@ a {
   top: 50%;
   transform: translateY(-50%);
   left: -2.5rem;
-  outline: 1px solid var(--font-highlight);
+  /*outline: 1px solid var(--font-highlight);*/
 }
 /*.image-group h1 {
   margin-top: 7rem;
@@ -198,20 +198,22 @@ a {
 /* SELECT COFFEES INPUT */
 .coffee-input {
   position: absolute;
-  top: 6rem;
+  top: 7rem;
   z-index: 1000;
   left: 50%;
   transform: translateX(-50%);
 }
 .coffee-input label {
   display: block;
-  margin-bottom: .25rem;
-  font-size: 1em;
+  margin-bottom: .5rem;
+  font-size: 1.25rem;
   font-family: sans-serif;
   text-align: center;
 }
 .coffee-input select {
   font-size: 1rem;
+  width: 96%;
+  margin-left: 2%;
 }
 .coffee-placeholder {
   display: none;
