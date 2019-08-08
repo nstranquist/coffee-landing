@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+      shrink-to-fit=no">
+    <title>Coffee Landing</title>
+    <script src="https://kit.fontawesome.com/937f708276.js"></script>
+    <link rel='stylesheet' href='main.css'>
+  </head>
+  <body>
+    <div class="coffee-input">
+      <!--<label for="coffees">Select Coffee</label>-->
+      <select id="coffees" name="coffees" class="">
+        <!-- Can Experiment using value"0-6" and using javascript to search -->
+        <option class="coffee-placeholder" value="Drip Coffee" disabled
+          selected>Select Coffee</option>
+        <option>Drip Coffee</option>
+        <option>Espresso</option>
+        <option>Cappuccino</option>
+        <option>Americano</option>
+        <option>Black Tea</option>
+        <option>Green Tea</option>
+        <option>Kombucha</option>
+      </select>
+    </div>
+    <div class="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+    <div class="overlay"></div>
+    <nav class="navbar">
+      <i class="fas fa-times"></i>
+      <div class="nav-logo">
+        <img src="images/starbucks.png" alt="coffee">
+      </div>
+      <div class="nav-middle">
+        <ul>
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#">Game</a></li>
+          <li class="nav-item"><a href="#">Locations</a></li>
+          <li class="nav-item"><a href="#">Products</a></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <ul>
+          <li class="nav-item"><a href="#">
+              <i class="fas fa-user"></i>
+              <span class="icon-text"> Log In</span>
+            </a></li>
+          <li class="nav-item"><a href="#">
+              <i class="fas fa-user-plus"></i>
+              <span class="icon-text"> Sign Up</span>
+            </a></li>
+        </ul>
+      </div>
+    </nav>
+    <main class="main">
+      <section class="content-left">
+        <div class="content-container">
+          <h1 id="coffee-name"></h1>
+          <p id="coffee-description"></p>
+          <h2 id="coffee-price">$57</h2>
+          <div class="info-buttons">
+            <a href="#" class="btn buy-btn">BUY</a>
+            <a href="#" class="btn info-btn">INFO</a>
+          </div>
+        </div>
+      </section>
+      <section class="content-right">
+        <!--<div class="image-group">
+          <h1>AwesomeBrand Coffee</h1>
+          <p>Some Descriptive Text</p>-->
+        <img class="product-image" id="coffee-image" src="images/coffee-01.png"
+          alt="coffee product
+          image">
+        <!--</div>-->
+      </section>
+      <!--<section class="product-details">
+        <div class="details-container">
+          <article class="detail detail-1">
+            <i class="fas fa-user"></i>
+            <p>Check out this cool detail. Come check out coffeestory and
+              receive a lifetime supply of coffee knowledge</p>
+            <a href="#" class="btn detail-btn">MORE</a>
+          </article>
+          <article class="detail detail-2">
+            <i class="fas fa-user"></i>
+            <p>Check out this cool detail</p>
+            <a href="#" class="btn detail-btn">MORE</a>
+          </article>
+          <article class="detail detail-3">
+            <i class="fas fa-user"></i>
+            <p>Check out this cool detail</p>
+            <a href="#" class="btn detail-btn">MORE</a>
+          </article>
+        </div>
+      </section>-->
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
