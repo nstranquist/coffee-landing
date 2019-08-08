@@ -1,6 +1,6 @@
 // Import coffeeData from coffeeData.js
 //import coffeeData from './coffeeData.js';
-import { coffeeData } from './coffeeData.js';
+import { coffeeData } from './lib/js/coffeeData.js';
 
 // GRAB DOM OBJECTS
 // layout elements
@@ -22,7 +22,7 @@ function updateCoffees() {
   coffeeNameDOM.textContent = newCoffee.name;
   coffeeDescriptionDOM.textContent = newCoffee.description;
   coffeePriceDOM.textContent = newCoffee.price;
-  coffeeImageDOM.setAttribute('src', `images/${newCoffee.src}`);
+  coffeeImageDOM.setAttribute('src', `lib/images/${newCoffee.src}`);
   coffeeImageDOM.setAttribute('alt', newCoffee.src);
 }
 const findCoffee = function (myCoffees, name) {

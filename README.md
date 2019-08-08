@@ -1,4 +1,4 @@
-Live at coffeestory.surge.sh
+[Live at coffeestory.surge.sh](https://coffeestory.surge.sh)
 
 ## Objectives
 - Responsive, clean web design
